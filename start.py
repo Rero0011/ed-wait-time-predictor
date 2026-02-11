@@ -41,3 +41,19 @@ baseline.fit(X_train, y_train)
 pred_base = baseline.predict(X_test)
 
 print("Baseline MAE:", mean_absolute_error(y_test, pred_base))
+
+
+# XGBoost model
+from xgboost import XGBRegressor
+
+model = XGBRegressor(
+    n_estimators=200,
+    learning_rate=0.1,
+    max_depth=6
+)
+
+model.fit(X_train, y_train)
+
+pred = model.predict(X_test)
+
+print("XGBoost MAE:", mean_absolute_error(y_test, pred))
