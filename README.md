@@ -10,8 +10,8 @@ and provides explainable insights using SHAP.
 - Interactive dashboard (Streamlit)
 
 ## How to Run
-pip install -r requirements.txt
-streamlit run app.py
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ## Dataset
 Synthetic dataset simulating ED conditions.
