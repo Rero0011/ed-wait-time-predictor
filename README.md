@@ -11,6 +11,14 @@ It demonstrates how predictive modelling and explainable AI can be applied to su
 
 ---
 
+## Project Structure
+- `app.py` – Streamlit dashboard
+- `ed_wait_time_analysis.ipynb` – Data analysis and model development
+- `xgb_model.pkl` – Trained model
+- `model_columns.pkl` – Feature structure
+
+---
+
 ## Features
 -  Wait time prediction
 -  Explainable AI (SHAP)
