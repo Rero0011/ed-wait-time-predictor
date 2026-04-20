@@ -52,5 +52,8 @@ streamlit run app.py
 
 ---
 
+## Note: When running the notebook in Google Colab, the dataset will need to be manually uploaded to the environment before execution.
+
+---
 ## Author
 Rerosuoghene Eppiah
