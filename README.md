@@ -36,8 +36,12 @@ It demonstrates how predictive modelling and explainable AI can be applied to su
 
 ---
 
-  ## Dataset
-  Synthetic dataset simulating emergency department conditions (Urgency, time, staffing, and facility factors)
+## Dataset
+
+The dataset used in this project is included in this repository.
+
+It is a synthetic dataset representing emergency department conditions and was originally sourced from Kaggle:
+https://www.kaggle.com/datasets/rivalytics/er-wait-time
 
 ---
 
@@ -47,12 +51,21 @@ It demonstrates how predictive modelling and explainable AI can be applied to su
 ---
 
 ##  Run Locally
-pip install -r requirements.txt
-streamlit run app.py
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ---
 
-## Note: When running the notebook in Google Colab, the dataset will need to be manually uploaded to the environment before execution.
+## Running the Project (Google Colab)
+
+To run the notebook in Google Colab:
+
+1. Upload the notebook file from the `/notebook` directory.
+2. Upload the dataset file into the same Colab working directory.
+3. Ensure the dataset file name matches the one used in the notebook.
+4. Run all cells in order.
+
+Note: Both the notebook and dataset must be in the same directory when running in Colab.
 
 ---
 ## Author
